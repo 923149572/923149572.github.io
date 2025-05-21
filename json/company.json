@@ -1,14 +1,866 @@
 {
-  "companys":[
+  "companys": [
     {
-      "name":"TP-LINK（普联技术有限公司）",
-      "list":[
+      "name": "腾讯",
+      "list": [
         {
-          "type":"school",
-          "link":"https://hr.tp-link.com.cn/"
-        },{
-          "type":"social",
-          "link":"https://hr.tp-link.com.cn/socialJobList"
+          "type": "normal",
+          "link": "https://careers.tencent.com"
+        }
+      ]
+    },
+    {
+      "name": "阿里巴巴",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://talent.alibaba.com"
+        }
+      ]
+    },
+    {
+      "name": "华为",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://career.huawei.com"
+        }
+      ]
+    },
+    {
+      "name": "字节跳动",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.bytedance.com"
+        }
+      ]
+    },
+    {
+      "name": "百度",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://talent.baidu.com"
+        }
+      ]
+    },
+    {
+      "name": "京东",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.jd.com"
+        }
+      ]
+    },
+    {
+      "name": "美团",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://zhaopin.meituan.com"
+        }
+      ]
+    },
+    {
+      "name": "小米",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://hr.xiaomi.com"
+        }
+      ]
+    },
+    {
+      "name": "网易",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://hr.163.com"
+        }
+      ]
+    },
+    {
+      "name": "快手",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://zhaopin.kuaishou.cn"
+        }
+      ]
+    },
+    {
+      "name": "拼多多",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.pinduoduo.com"
+        }
+      ]
+    },
+    {
+      "name": "微博",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.weibo.com"
+        }
+      ]
+    },
+    {
+      "name": "哔哩哔哩",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.bilibili.com"
+        }
+      ]
+    },
+    {
+      "name": "爱奇艺",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.iqiyi.com"
+        }
+      ]
+    },
+    {
+      "name": "360集团",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://360campus.zhiye.com"
+        }
+      ]
+    },
+    {
+      "name": "商汤科技",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.sensetime.com/cn/join"
+        }
+      ]
+    },
+    {
+      "name": "大疆",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://we.dji.com/zh-CN/campus"
+        }
+      ]
+    },
+    {
+      "name": "联想",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://talent.lenovo.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "中兴",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.zte.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "OPPO",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.oppo.com"
+        }
+      ]
+    },
+    {
+      "name": "vivo",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.vivo.com"
+        }
+      ]
+    },
+    {
+      "name": "特斯拉",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.tesla.com/careers"
+        }
+      ]
+    },
+    {
+      "name": "比亚迪",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://hr.byd.com"
+        }
+      ]
+    },
+    {
+      "name": "蔚来",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.nio.cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "小鹏汽车",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://app.mokahr.com/apply/xiaopeng"
+        }
+      ]
+    },
+    {
+      "name": "理想汽车",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.lixiang.com/careers"
+        }
+      ]
+    },
+    {
+      "name": "吉利",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://hr.geely.com"
+        }
+      ]
+    },
+    {
+      "name": "上汽集团",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.saicmotor.com"
+        }
+      ]
+    },
+    {
+      "name": "一汽集团",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://zhaopin.faw.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "宁德时代",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://career.catl.com"
+        }
+      ]
+    },
+    {
+      "name": "中国银行",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://career.boc.cn"
+        }
+      ]
+    },
+    {
+      "name": "工商银行",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.icbc.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "建设银行",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.ccb.com"
+        }
+      ]
+    },
+    {
+      "name": "农业银行",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://career.abchina.com"
+        }
+      ]
+    },
+    {
+      "name": "招商银行",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://career.cmbchina.com"
+        }
+      ]
+    },
+    {
+      "name": "中国移动",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.10086.cn"
+        }
+      ]
+    },
+    {
+      "name": "中国电信",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://zhaopin.chinatelecom.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "中国联通",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://zhaopin.chinaunicom.cn"
+        }
+      ]
+    },
+    {
+      "name": "国家电网",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://zhaopin.sgcc.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "中石油",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://zhaopin.cnpc.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "中石化",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.sinopec.com"
+        }
+      ]
+    },
+    {
+      "name": "宝洁",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.pgcareers.com"
+        }
+      ]
+    },
+    {
+      "name": "联合利华",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.unilever.com.cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "欧莱雅",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.loreal.com"
+        }
+      ]
+    },
+    {
+      "name": "可口可乐",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.coca-colacompany.com/careers"
+        }
+      ]
+    },
+    {
+      "name": "星巴克",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.starbucks.com.cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "麦当劳",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.mcdonalds.com.cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "肯德基",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.kfc.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "耐克",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.nike.com"
+        }
+      ]
+    },
+    {
+      "name": "阿迪达斯",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.adidas-group.com"
+        }
+      ]
+    },
+    {
+      "name": "苹果",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.apple.com/careers/cn"
+        }
+      ]
+    },
+    {
+      "name": "微软",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.microsoft.com"
+        }
+      ]
+    },
+    {
+      "name": "谷歌",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.google.com"
+        }
+      ]
+    },
+    {
+      "name": "亚马逊",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.amazon.jobs/zh"
+        }
+      ]
+    },
+    {
+      "name": "IBM",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.ibm.com/cn-zh/careers"
+        }
+      ]
+    },
+    {
+      "name": "英特尔",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.intel.cn/content/www/cn/zh/jobs"
+        }
+      ]
+    },
+    {
+      "name": "甲骨文",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.oracle.com/cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "SAP",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.sap.com"
+        }
+      ]
+    },
+    {
+      "name": "思科",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.cisco.com"
+        }
+      ]
+    },
+    {
+      "name": "高通",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.qualcomm.com/company/careers"
+        }
+      ]
+    },
+    {
+      "name": "强生",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.careers.jnj.com"
+        }
+      ]
+    },
+    {
+      "name": "辉瑞",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.pfizercareers.com"
+        }
+      ]
+    },
+    {
+      "name": "罗氏",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.roche.com.cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "诺华",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.novartis.com/careers"
+        }
+      ]
+    },
+    {
+      "name": "拜耳",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://career.bayer.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "默沙东",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.msdchina.com"
+        }
+      ]
+    },
+    {
+      "name": "葛兰素史克",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.gsk-china.com/zh-cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "药明康德",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.wuxiapptec.com"
+        }
+      ]
+    },
+    {
+      "name": "恒瑞医药",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.hrs.com.cn"
+        }
+      ]
+    },
+    {
+      "name": "迈瑞医疗",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://career.mindray.com"
+        }
+      ]
+    },
+    {
+      "name": "华大基因",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.bgi.com/cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "平安集团",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://talent.pingan.com"
+        }
+      ]
+    },
+    {
+      "name": "中国人寿",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.chinalife.com.cn/joinus"
+        }
+      ]
+    },
+    {
+      "name": "泰康保险",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.taikanglife.com/career"
+        }
+      ]
+    },
+    {
+      "name": "普华永道",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.pwccn.com/zh/careers"
+        }
+      ]
+    },
+    {
+      "name": "德勤",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www2.deloitte.com/cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "安永",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.ey.com"
+        }
+      ]
+    },
+    {
+      "name": "毕马威",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://home.kpmg/cn/zh/home/careers"
+        }
+      ]
+    },
+    {
+      "name": "麦肯锡",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.mckinsey.com/cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "波士顿咨询",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.bcg.com"
+        }
+      ]
+    },
+    {
+      "name": "贝恩",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.bain.cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "壳牌",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.shell.com.cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "埃克森美孚",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.exxonmobil.com"
+        }
+      ]
+    },
+    {
+      "name": "BP英国石油",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.bp.com/zh_cn/china/careers.html"
+        }
+      ]
+    },
+    {
+      "name": "宜家",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://ikea.taleo.net"
+        }
+      ]
+    },
+    {
+      "name": "沃尔玛",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.walmart.com"
+        }
+      ]
+    },
+    {
+      "name": "家乐福",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.carrefour.com.cn/careers"
+        }
+      ]
+    },
+    {
+      "name": "百胜中国",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://careers.yumchina.com"
+        }
+      ]
+    },
+    {
+      "name": "海底捞",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.haidilao.com"
+        }
+      ]
+    },
+    {
+      "name": "新东方",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.neworiental.org"
+        }
+      ]
+    },
+    {
+      "name": "好未来",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://job.100tal.com"
+        }
+      ]
+    },
+    {
+      "name": "字节跳动（教育）",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://jobs.bytedance.com/experienced"
+        }
+      ]
+    },
+    {
+      "name": "网易有道",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://hr.youdao.com"
+        }
+      ]
+    },
+    {
+      "name": "猿辅导",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.yuanfudao.com/careers"
+        }
+      ]
+    },
+    {
+      "name": "作业帮",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.zuoyebang.com/careers"
+        }
+      ]
+    },
+    {
+      "name": "跟谁学",
+      "list": [
+        {
+          "type": "normal",
+          "link": "https://www.genshuixue.com/careers"
         }
       ]
     }
