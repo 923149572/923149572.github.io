@@ -1,0 +1,16 @@
+{
+  "companys":[
+    {
+      "name":"TP-LINK（普联技术有限公司）",
+      "list":[
+        {
+          "type":"school",
+          "link":"https://hr.tp-link.com.cn/"
+        },{
+          "type":"social",
+          "link":"https://hr.tp-link.com.cn/socialJobList"
+        }
+      ]
+    }
+  ]
+}
