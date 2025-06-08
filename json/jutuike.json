@@ -18,6 +18,7 @@
       "desc": "一日流量包，一个月可领一次",
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
+        "act_name": "流量包1",
         "h5": "https://wx.10086.cn/qwhdhub/leadin/1025012230?A_C_CODE=cPccqjGNsY#/"
       }
     },
@@ -26,6 +27,7 @@
       "desc": "一日流量包，一个月可领一次",
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
+        "act_name": "流量包2",
         "h5": "https://wx.10086.cn/qwhdhub/leadin/1025012314?source_from=666.146.bigBagCilck.click&channelId=P00000112259&A_C_CODE=tApqjxVygk#/"
       }
     },
@@ -34,6 +36,7 @@
       "desc": "一日流量包，一个月可领一次",
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
+        "act_name": "流量包3",
         "h5": "https://wx.10086.cn/qwhdhub/leadin/1025012340?A_C_CODE=d20cRFl06p&channelId=P00000111984#/"
       }
     },
@@ -42,6 +45,7 @@
       "desc": "一日流量包，一个月可领一次",
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
+        "act_name": "流量包4",
         "h5": "https://wx.10086.cn/qwhdhub/leadin/1025032526?A_C_CODE=mPTRFAl8l1#/"
       }
     },
@@ -50,6 +54,7 @@
       "desc": "一日流量包，一个月可领一次",
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
+        "act_name": "流量包5",
         "h5": "https://vv.mmarket.com/vv-new-mmactive/index.html?sourceId=vv-new-mm-ZFB-SJCZ-SHH-IC"
       }
     }
