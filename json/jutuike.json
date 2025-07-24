@@ -46,7 +46,7 @@
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
         "act_name": "流量包4",
-        "h5": "https://wx.10086.cn/qwhdhub/leadin/1025032526?A_C_CODE=mPTRFAl8l1#/"
+        "h5": "https://vv.mmarket.com/vv-new-mmactive/index.html?sourceId=vv-new-mm-ZFB-SJCZ-SHH-IC"
       }
     },
     {
@@ -55,7 +55,25 @@
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
         "act_name": "流量包5",
-        "h5": "https://vv.mmarket.com/vv-new-mmactive/index.html?sourceId=vv-new-mm-ZFB-SJCZ-SHH-IC"
+        "h5": "https://dev.coc.10086.cn/coc/web6/ageFeedbackV2/?pageId=1879720710683729920&channelId=P00000001067"
+      }
+    },
+    {
+      "act_name": "流量包6",
+      "desc": "一日流量包，一个月可领一次",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "流量包6",
+        "h5": "https://wx.10086.cn/qwhdhub/giveprize/1025050906?A_C_CODE=nm1Cpjjw8O"
+      }
+    },
+    {
+      "act_name": "流量包7",
+      "desc": "一日流量包，一个月可领一次",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "流量包7",
+        "h5": "https://wx.10086.cn/qwhdhub/turntable/1025030712?A_C_CODE=ZOmYfZlpWz&channelId=P00000002492&token=QWHDSSO03312258226352989514hannelIdP00000002492"
       }
     }
   ]
