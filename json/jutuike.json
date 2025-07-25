@@ -75,6 +75,15 @@
         "act_name": "流量包7",
         "h5": "https://wx.10086.cn/qwhdhub/turntable/1025030712?A_C_CODE=ZOmYfZlpWz&channelId=P00000002492&token=QWHDSSO03312258226352989514hannelIdP00000002492"
       }
+    },
+    {
+      "act_name": "深圳10G流量包",
+      "desc": "深圳用户可领一次",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "深圳10G流量包",
+        "h5": "https://gd.10086.cn/apph5/openapi/static/template/corRedEnvelope/index.html?activityId=0428161646baVD"
+      }
     }
   ]
 }
