@@ -1,0 +1,31 @@
+name: Juejin Auto Check-in
+
+on:
+  schedule:
+    # 每天北京时间上午9点执行 (UTC时间是1点)
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  checkin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check-in to Juejin
+        id: checkin
+        run: |
+          response=$(curl -s -w "%{http_code}" -X POST \
+            -H "Content-Type: application/json" \
+            -H "Cookie: ${{ secrets.JUEJIN_COOKIE }}" \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+            -d '{"aid": "${{ secrets.JUEJIN_AID }}", "uuid": "${{ secrets.JUEJIN_UUID }}"}' \
+            https://api.juejin.cn/growth_api/v1/check_in)
+
+          echo "Response: $response"
+
+      - name: Check result
+        run: |
+          echo "Check-in completed. Response code and message:"
+          echo "${{ steps.checkin.outputs.response }}"
