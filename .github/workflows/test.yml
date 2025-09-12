@@ -18,8 +18,8 @@ jobs:
         run: |
           response=$(curl -s -w "%{http_code}" -X POST \
             -H "Content-Type: application/json" \
-            -H "Cookie: ${{ secrets.JUEJIN_COOKIE1 }}" \
-            -d '{"aid": "${{ secrets.JUEJIN_AID }}", "uuid": "${{ secrets.JUEJIN_UUID1 }}"}' \
+            -H "Cookie: ${{ secrets.JUEJIN_COOKIE }}" \
+            -d '{"aid": "${{ secrets.JUEJIN_AID }}", "uuid": "${{ secrets.JUEJIN_UUID }}"}' \
             https://api.juejin.cn/growth_api/v1/check_in)
 
           echo "Response: $response"
@@ -34,8 +34,8 @@ jobs:
         run: |
           response=$(curl -s -w "%{http_code}" -X GET \
             -H "Content-Type: application/json" \
-            -H "Cookie: ${{ secrets.JUEJIN_COOKIE1 }}" \
-            "https://api.juejin.cn/growth_api/v1/lottery_config/get?aid=${{ secrets.JUEJIN_AID }}&uuid=${{ secrets.JUEJIN_UUID1 }}")
+            -H "Cookie: ${{ secrets.JUEJIN_COOKIE }}" \
+            "https://api.juejin.cn/growth_api/v1/lottery_config/get?aid=${{ secrets.JUEJIN_AID }}&uuid=${{ secrets.JUEJIN_UUID }}")
 
           echo "Lottery status response: $response"
           echo "::set-output name=response::$response"
@@ -56,9 +56,9 @@ jobs:
         run: |
           response=$(curl -s -w "%{http_code}" -X POST \
             -H "Content-Type: application/json" \
-            -H "Cookie: ${{ secrets.JUEJIN_COOKIE1 }}" \
+            -H "Cookie: ${{ secrets.JUEJIN_COOKIE }}" \
             -d '{}' \
-            "https://api.juejin.cn/growth_api/v1/lottery/draw?aid=${{ secrets.JUEJIN_AID }}&uuid=${{ secrets.JUEJIN_UUID1 }}")
+            "https://api.juejin.cn/growth_api/v1/lottery/draw?aid=${{ secrets.JUEJIN_AID }}&uuid=${{ secrets.JUEJIN_UUID }}")
 
           echo "Lottery response: $response"
           echo "::set-output name=response::$response"
