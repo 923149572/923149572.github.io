@@ -42,8 +42,6 @@ jobs:
           echo "response<<EOF" >> $GITHUB_OUTPUT
           echo "$response" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-        outputs:
-          response: ${{ steps.lottery_status.outputs.response }}
 
       - name: Parse lottery status
         id: parse_lottery
