@@ -16,13 +16,15 @@ jobs:
       - name: Check-in to Juejin
         id: checkin
         run: |
-          response=$(curl -s -w "%{http_code}" -X POST \
+          response=$(curl -s -w "\n%{http_code}" -X POST \
             -H "Content-Type: application/json" \
             -H "Cookie: ${{ secrets.JUEJIN_COOKIE }}" \
             -d '{"aid": "${{ secrets.JUEJIN_AID }}", "uuid": "${{ secrets.JUEJIN_UUID }}"}' \
             https://api.juejin.cn/growth_api/v1/check_in)
 
-          echo "Response: $response"
+          echo "response<<EOF" >> $GITHUB_OUTPUT
+          echo "$response" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Check sign-in result
         run: |
@@ -32,36 +34,40 @@ jobs:
       - name: Check lottery status
         id: lottery_status
         run: |
-          response=$(curl -s -w "%{http_code}" -X GET \
+          response=$(curl -s -w "\n%{http_code}" -X GET \
             -H "Content-Type: application/json" \
             -H "Cookie: ${{ secrets.JUEJIN_COOKIE }}" \
             "https://api.juejin.cn/growth_api/v1/lottery_config/get?aid=${{ secrets.JUEJIN_AID }}&uuid=${{ secrets.JUEJIN_UUID }}")
 
-          echo "Lottery status response: $response"
-          echo "::set-output name=response::$response"
+          echo "response<<EOF" >> $GITHUB_OUTPUT
+          echo "$response" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+        outputs:
+          response: ${{ steps.lottery_status.outputs.response }}
 
       - name: Parse lottery status
         id: parse_lottery
         run: |
-          free_count=$(echo '${{ steps.lottery_status.outputs.response }}' | grep -o '"free_count":[0-9]*' | cut -d':' -f2)
+          free_count=$(echo '${{ steps.lottery_status.outputs.response }}' | head -n -1 | grep -o '"free_count":[0-9]*' | cut -d':' -f2)
           if [ "$free_count" = "" ]; then
             free_count=0
           fi
           echo "Free lottery count: $free_count"
-          echo "::set-output name=free_count::$free_count"
+          echo "free_count=$free_count" >> $GITHUB_OUTPUT
 
       - name: Draw lottery if available
         if: steps.parse_lottery.outputs.free_count > 0
         id: lottery
         run: |
-          response=$(curl -s -w "%{http_code}" -X POST \
+          response=$(curl -s -w "\n%{http_code}" -X POST \
             -H "Content-Type: application/json" \
             -H "Cookie: ${{ secrets.JUEJIN_COOKIE }}" \
             -d '{}' \
             "https://api.juejin.cn/growth_api/v1/lottery/draw?aid=${{ secrets.JUEJIN_AID }}&uuid=${{ secrets.JUEJIN_UUID }}")
 
-          echo "Lottery response: $response"
-          echo "::set-output name=response::$response"
+          echo "response<<EOF" >> $GITHUB_OUTPUT
+          echo "$response" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Show lottery result
         if: steps.parse_lottery.outputs.free_count > 0
