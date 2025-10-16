@@ -14,6 +14,60 @@
   ],
   "mobileData": [
     {
+      "act_name": "每日拆礼盒",
+      "desc": "拆话费流量礼盒，抢5GB流量",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "每日拆礼盒",
+        "h5": "https://wx.10086.cn/qwhdhub/tearbox/1025091806?A_C_CODE=PB0eyqV1VV"
+      }
+    },
+    {
+      "act_name": "瓜分40万份话费流量礼！",
+      "desc": "瓜分40万份话费流量礼！",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "瓜分40万份话费流量礼！",
+        "h5": "https://wx.10086.cn/qwhdhub/flipcard/1025091612?A_C_CODE=g2cVYgREie&channelId=P00000126619&yx=1404323001"
+      }
+    },
+    {
+      "act_name": "周六游戏日",
+      "desc": "周六游戏日",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "周六游戏日",
+        "h5": "https://wx.10086.cn/hlwyxhdhub/act-satgameday/1025071116?token=QWHDSSO10150655273804916971satgameday1025071116#/signup"
+      }
+    },
+    {
+      "act_name": "周日视频日",
+      "desc": "周日视频日",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "周日视频日",
+        "h5": "https://wx.10086.cn/hlwyxhdhub/act-sunvideo/1025061922#/home"
+      }
+    },
+    {
+      "act_name": "签到流量",
+      "desc": "签到流量",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "签到流量",
+        "h5": "https://wx.10086.cn/qwhdhub/qwhdmark/1021122301?ys=JHQD9999999999&touch_id=15-02-30011-7353-01&token=QWHDSSO10150656444418606681ch_id150230011735301#/"
+      }
+    },
+    {
+      "act_name": "全运会扭蛋",
+      "desc": "全运会扭蛋",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "全运会扭蛋",
+        "h5": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fgd.10086.cn%2Fgmccapp%2Fconfactpage%2FGashaponNew%2Findex.html%3FactId%3Dd7856048f1c842dd9f11e1f320ef7cd3%26WT.ac_id%3Dqd_by12&channelId=P00000049303"
+      }
+    },
+    {
       "act_name": "流量包1",
       "desc": "一日流量包，一个月可领一次",
       "icon": "/images/assets/icon/redBag.png",
@@ -56,24 +110,6 @@
       "detail": {
         "act_name": "流量包5",
         "h5": "https://dev.coc.10086.cn/coc/web6/ageFeedbackV2/?pageId=1879720710683729920&channelId=P00000001067"
-      }
-    },
-    {
-      "act_name": "流量包6",
-      "desc": "一日流量包，一个月可领一次",
-      "icon": "/images/assets/icon/redBag.png",
-      "detail": {
-        "act_name": "流量包6",
-        "h5": "https://wx.10086.cn/qwhdhub/giveprize/1025050906?A_C_CODE=nm1Cpjjw8O"
-      }
-    },
-    {
-      "act_name": "流量包7",
-      "desc": "一日流量包，一个月可领一次",
-      "icon": "/images/assets/icon/redBag.png",
-      "detail": {
-        "act_name": "流量包7",
-        "h5": "https://wx.10086.cn/qwhdhub/turntable/1025030712?A_C_CODE=ZOmYfZlpWz&channelId=P00000002492&token=QWHDSSO03312258226352989514hannelIdP00000002492"
       }
     },
     {
