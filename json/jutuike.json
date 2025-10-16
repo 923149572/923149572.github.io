@@ -14,6 +14,15 @@
   ],
   "mobileData": [
     {
+      "act_name": "每日签到换流量",
+      "desc": "每日签到",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "每日签到换流量",
+        "h5": "https://wx.10086.cn/qwhdhub/qwhdmark/1021122301?ys=JHQD9999999999&touch_id=15-02-30011-7353-01&token=QWHDSSO10150656444418606681ch_id150230011735301#/"
+      }
+    },
+    {
       "act_name": "每日拆礼盒",
       "desc": "拆话费流量礼盒，抢5GB流量",
       "icon": "/images/assets/icon/redBag.png",
@@ -23,11 +32,11 @@
       }
     },
     {
-      "act_name": "瓜分40万份话费流量礼！",
+      "act_name": "每日翻翻乐",
       "desc": "瓜分40万份话费流量礼！",
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
-        "act_name": "瓜分40万份话费流量礼！",
+        "act_name": "每日翻翻乐",
         "h5": "https://wx.10086.cn/qwhdhub/flipcard/1025091612?A_C_CODE=g2cVYgREie&channelId=P00000126619&yx=1404323001"
       }
     },
@@ -50,21 +59,12 @@
       }
     },
     {
-      "act_name": "签到流量",
-      "desc": "签到流量",
-      "icon": "/images/assets/icon/redBag.png",
-      "detail": {
-        "act_name": "签到流量",
-        "h5": "https://wx.10086.cn/qwhdhub/qwhdmark/1021122301?ys=JHQD9999999999&touch_id=15-02-30011-7353-01&token=QWHDSSO10150656444418606681ch_id150230011735301#/"
-      }
-    },
-    {
       "act_name": "全运会扭蛋",
       "desc": "全运会扭蛋",
       "icon": "/images/assets/icon/redBag.png",
       "detail": {
         "act_name": "全运会扭蛋",
-        "h5": "https://h.app.coc.10086.cn/activity/transit/transferDownload.html?targetUrl=https%3A%2F%2Fgd.10086.cn%2Fgmccapp%2Fconfactpage%2FGashaponNew%2Findex.html%3FactId%3Dd7856048f1c842dd9f11e1f320ef7cd3%26WT.ac_id%3Dqd_by12&channelId=P00000049303"
+        "h5": "https://gd.10086.cn/gmccapp/confactpage/GashaponNew/index.html?actId=d7856048f1c842dd9f11e1f320ef7cd3&WT.ac_id=qd_by12&channelId=P00000049303"
       }
     },
     {
