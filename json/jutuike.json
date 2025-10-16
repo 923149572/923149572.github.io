@@ -23,6 +23,15 @@
       }
     },
     {
+      "act_name": "每日大转盘",
+      "desc": "每日大转盘",
+      "icon": "/images/assets/icon/redBag.png",
+      "detail": {
+        "act_name": "每日大转盘",
+        "h5": "https://wap.gd.10086.cn/ech/h5/rotary-activity/index.html#/?actId=1971145320439681024&pathData=72733fe5ebb1474e84da8aac891c67ad&invTaskId=032c485b6d8249479d8a83a8c09cbf38"
+      }
+    },
+    {
       "act_name": "每日拆礼盒",
       "desc": "拆话费流量礼盒，抢5GB流量",
       "icon": "/images/assets/icon/redBag.png",
